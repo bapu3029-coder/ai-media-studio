@@ -1,0 +1,12 @@
+{
+  "name": "ai-media-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Text to image, image to video, and photo + prompt to video, powered by Replicate",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "engines": { "node": ">=20.6" }
+}
